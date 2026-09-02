@@ -8,8 +8,9 @@ The projects are organized according to the internship levels:
 
 - 🟢 Beginner Level
 - 🟡 Intermediate Level
+- 🔴 Advanced Level
 
-Each level focuses on progressively deeper data analysis, visualization, and business insights.
+Each level focuses on progressively deeper data analysis, visualization, dashboard development, and business insights.
 
 ---
 
@@ -28,13 +29,26 @@ Shadowfox_data_analyst/
 │   ├── Dashboard.xlsx
 │   └── Beginner Report.pdf
 │
-└── Intermediate/
-    ├── Data_cleaning/
-    │   └── Data_Cleaning.ipynb
+├── Intermediate/
+│   ├── Data_cleaning/
+│   │   └── Data_Cleaning.ipynb
+│   │
+│   ├── Dataset/
+│   │   ├── SuperStore_Sales_Dataset_Raw.csv
+│   │   └── SuperStore_Sales_Dataset_Cleaned.csv
+│   │
+│   ├── Superstore_sales_Dashboard.pbix
+|   ├── Superstore_sales_Dashboard.pdf
+│   └── Report.pdf
+│
+└── Advance/
+    ├── Data Cleaning/
+    │   └── IBM_data.ipynb
     │
     ├── Dataset/
-    │   ├── SuperStore_Sales_Dataset_Raw.csv
-    │   └── SuperStore_Sales_Dataset_Cleaned.csv
+    │   ├── Raw Data.csv
+    │   └── IBM_HR_Analytics_Cleaned.csv
     │
-    ├── Superstore_sales_Dashboard.pbix
+    ├── IBM HR ANALYTIS DASHBOARD.pbix
+    ├── IBM HR ANALYTIS DASHBOARD.pdf
     └── Report.pdf
